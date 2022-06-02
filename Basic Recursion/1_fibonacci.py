@@ -1,5 +1,3 @@
-import time
-
 print('Fibonacci in Iterative Way')
 print('--------------------------')
 
@@ -12,7 +10,7 @@ def fibo1(n):
         seq[i] = seq[i - 1] + seq[i - 2]
 
     seq.pop(0)
-    return seq[len(seq) - 1], seq  # Time complexity in Linear
+    return seq[len(seq) - 1], seq  # Time complexity is Linear
 
 
 if __name__ == '__main__':

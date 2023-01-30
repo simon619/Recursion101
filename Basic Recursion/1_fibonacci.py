@@ -24,7 +24,7 @@ print('--------------------------')
 
 
 def fibo2(n):
-    if n == 1 or n == 2:
+    if n == 1 or n == 0:
         return 1
     else:
         return fibo2(n - 1) + fibo2(n - 2)  # Time complexity is 2^n
